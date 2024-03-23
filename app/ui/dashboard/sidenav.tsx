@@ -7,10 +7,15 @@ export default function SideNav() {
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
       <Link
-        className="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40"
+        className="mb-2 flex h-20 items-end justify-start align-middle rounded-md bg-blue-600 p-4 md:h-40"
         href="/"
       >
-        <div className="w-32 text-white md:w-40">
+        {/*
+          <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+          <AcmeLogo />
+          </div>
+      */}
+        <div className=" flex w-32 text-white md:w-40">
           <AcmeLogo />
         </div>
       </Link>
